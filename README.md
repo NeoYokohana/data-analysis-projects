@@ -2,6 +2,8 @@
 
 北京工业大学 · 大数据管理与应用 · 2024 级
 
+三个课程项目：文本挖掘、文献计量与知识图谱、Django 全栈开发。
+
 ## 项目列表
 
 ### 1. 电商评论情感分析与主题挖掘（2026.10）
@@ -9,9 +11,9 @@
 6.2 万条中文电商评论的文本挖掘全流程。
 
 - **方法**：正则清洗 → Jieba 分词 → 朴素贝叶斯情感分类 → LDA 主题挖掘 → 主题×情感交叉分析
-- **结果**：准确率 89.57%、F1 0.8979；LDA 归纳 5 类主题，定位“售后客服”为负面反馈集中主题
-- **技术栈**：Java · OpenCSV · Jieba-Analysis · Mallet
-- 目录：[01-text-mining](./01-text-mining/)
+- **结果**：准确率 89.57%、F1 0.8979；LDA 归纳 5 类主题，定位「售后客服」为负面反馈集中主题
+- **技术栈**：Java · OpenCSV · Jieba-Analysis · Mallet · Maven
+- 详见 [01-text-mining](./01-text-mining/)
 
 ### 2. 自动驾驶领域文献计量与知识图谱分析（2026.06）
 
@@ -19,11 +21,11 @@
 
 - **方法**：VOSviewer 关键词共现 / 作者合作 / 国家合作网络 + 时间演化与密度图谱
 - **结果**：识别 4 类研究方向、6 大合作团队、3 大国家集群
-- 目录：[02-bibliometric](./02-bibliometric/)
+- 详见 [02-bibliometric](./02-bibliometric/)
 
 ### 3. Python 商城系统（2026.05）
 
 Django + Vue 前后端分离商城，教师指导下完成。
 
 - **技术栈**：Django · Vue · Redis
-- 目录：[03-django-mall](./03-django-mall/)
+- 详见 [03-django-mall](./03-django-mall/)
